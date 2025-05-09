@@ -4,7 +4,7 @@ from PIL import Image
 import torch
 import torchvision.transforms as T
 import io
-from models.insect_pest_module import InsectPestLitModule
+from pest_rec.models.insect_pest_module import InsectPestLitModule
 
 model = InsectPestLitModule.load_from_checkpoint("last.ckpt", map_location="cpu")
 model.eval()
