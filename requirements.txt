@@ -3,5 +3,5 @@ uvicorn
 pillow
 torch
 torchvision
-pytorch-lightning
+lightning
 python-multipart
